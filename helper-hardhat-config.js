@@ -10,6 +10,13 @@ const networkConfig = {
   // for hardhat??
 };
 
+const developmentChain = ["hardhat", "localhost"];
+const DECIMALS = 8;
+const INITIAL_ASNWER = 200000000000;
+
 module.exports = {
   networkConfig,
+  developmentChain,
+  DECIMALS,
+  INITIAL_ASNWER,
 };
